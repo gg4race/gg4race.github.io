@@ -1,0 +1,43 @@
+.game-area {
+    display:table;
+    margin:0 auto;
+    text-align: center;
+    color: #ddd;
+}
+
+body {
+	background-color: #555;
+}
+
+select {
+	color: #444;
+}
+
+.cell {
+	display: inline-block; /*makes square even without any text*/
+	height: 35px;
+	width: 35px;
+	background-color: #f0ad4e;
+	margin: 2px;
+
+}
+
+.marked {
+	background-color: #cece00;
+}
+
+.open {
+	background-color: #aaa;
+}
+
+.open.bomb {
+	background-color: red;
+}
+
+.header {
+	text-align: center;
+}
+
+.header:before {
+	content: "\00a0";
+}
